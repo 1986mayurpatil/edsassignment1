@@ -15,6 +15,8 @@
   .form form > .field-wrapper + .field-wrapper,
   .form form fieldset .field-wrapper + .field-wrapper {
     margin-top: 24px;
+    background-color: #0d6efd;
+    color: white;
   }
   
   .form form > .selection-wrapper + .selection-wrapper,
@@ -46,6 +48,7 @@
     margin-bottom: 0.25em;
     font-size: var(--body-font-size-s);
     font-weight: 700;
+    color: white;
   }
   
   .form .selection-wrapper label {
@@ -113,6 +116,7 @@
   .form .field-wrapper.selection-wrapper {
     grid-auto-flow: column;
     justify-content: start;
+    align-items: center;
     gap: 1ch;
   }
   
@@ -157,7 +161,8 @@
   }
   
   .form .toggle-wrapper input:checked + .slider {
-    background-color: var(--link-color);
+    background-color: #0d6efd;
+    align-items: center;
   }
   
   .form .toggle-wrapper input:focus + .slider {
